@@ -8,7 +8,7 @@ packages = [{include = "docs_agent"}]
 
 [tool.poetry.dependencies]
 python = "^3.12"
-protobuf = "^3.10.0"
+protobuf = "^4.25.8"
 rich = "^13.3.5"
 Markdown = "^3.4.3"
 beautifulsoup4 = "^4.12.2"
@@ -31,13 +31,13 @@ pulsar-client = "3.5.0"
 pytest = "^8.3.4"
 google-genai = "^1.10.0"
 google-generativeai = "^0.8.4"
-setuptools = "^78.1.0"
-mcp = "^1.6.0"
+setuptools = "^78.1.1"
+mcp = "^1.23.0"
 
 [tool.poetry.group.dev.dependencies]
 ipython = "^8.13.2"
 pylint = "^2.17.4"
-black = "^23.3.0"
+black = "^24.3.0"
 deptry = "^0.13.0"
 
 [tool.deptry.per_rule_ignores]
